@@ -1,0 +1,11 @@
+/Users/kimhyeonsu/rust/name_service/program/target/debug/deps/getrandom-52a087536adb6882.d: /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/lib.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error_impls.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util_libc.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/use_file.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/macos.rs
+
+/Users/kimhyeonsu/rust/name_service/program/target/debug/deps/libgetrandom-52a087536adb6882.rmeta: /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/lib.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error_impls.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util_libc.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/use_file.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/macos.rs
+
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/lib.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/error_impls.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/util_libc.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/use_file.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/macos.rs:

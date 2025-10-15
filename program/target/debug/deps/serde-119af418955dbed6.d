@@ -1,0 +1,14 @@
+/Users/kimhyeonsu/rust/name_service/program/target/debug/deps/serde-119af418955dbed6.d: /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/kimhyeonsu/rust/name_service/program/target/debug/build/serde-8004c81b396fa68e/out/private.rs
+
+/Users/kimhyeonsu/rust/name_service/program/target/debug/deps/libserde-119af418955dbed6.rlib: /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/kimhyeonsu/rust/name_service/program/target/debug/build/serde-8004c81b396fa68e/out/private.rs
+
+/Users/kimhyeonsu/rust/name_service/program/target/debug/deps/libserde-119af418955dbed6.rmeta: /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/kimhyeonsu/rust/name_service/program/target/debug/build/serde-8004c81b396fa68e/out/private.rs
+
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/kimhyeonsu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/kimhyeonsu/rust/name_service/program/target/debug/build/serde-8004c81b396fa68e/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/kimhyeonsu/rust/name_service/program/target/debug/build/serde-8004c81b396fa68e/out
