@@ -6,7 +6,8 @@ use solana_program::{
     program_pack::{IsInitialized, Pack, Sealed},
     pubkey::Pubkey,
 };
-use std::io::Cursor; // ✅ Borsh serialize/deserialize에 필요
+use std::cell::RefMut;
+use std::io::Cursor;
 
 #[derive(Clone, Debug, BorshDeserialize, BorshSerialize, PartialEq)]
 pub struct NameRecordHeader {
@@ -15,15 +16,12 @@ pub struct NameRecordHeader {
     pub class: Pubkey,
 }
 
-// Pack을 쓰려면 Sealed 필요
 impl Sealed for NameRecordHeader {}
 
 impl Pack for NameRecordHeader {
-    // 32바이트 * 3 = 96
     const LEN: usize = 96;
 
     fn pack_into_slice(&self, dst: &mut [u8]) {
-
         let mut writer = Cursor::new(dst);
         self.serialize(&mut writer).unwrap();
     }
@@ -33,8 +31,6 @@ impl Pack for NameRecordHeader {
             msg!("Failed to deserialize name record");
             ProgramError::InvalidAccountData
         })
-
-     
     }
 }
 
@@ -44,7 +40,28 @@ impl IsInitialized for NameRecordHeader {
     }
 }
 
-pub fn write_data(account_: &AccountInfo, input: &[u8], offset: usize){
-    let mut account_data: RefMut<&mut [u8]> = account.data.borrow_mut();
+pub fn write_data(account_: &AccountInfo, input: &[u8], offset: usize) {
+    let mut account_data: RefMut<&mut [u8]> = account_.data.borrow_mut();
     account_data[offset..offset + input.len()].copy_from_slice(input);
+}
+
+pub fn get_seeds_and_key(
+    program_id: &Pubkey,
+    hashed_name: Vec<u8>,
+    name_class_opt: Option<&Pubkey>,
+    parent_name_address_opt: Option<&Pubkey>,
+) -> (Pubkey, Vec<u8>) {
+    let mut seeds_vec: Vec<u8> = hashed_name;
+
+    let name_class: Pubkey = name_class_opt.cloned().unwrap_or_default();
+    seeds_vec.extend_from_slice(name_class.as_ref());
+
+    let parent_name_address: Pubkey = parent_name_address_opt.cloned().unwrap_or_default();
+    seeds_vec.extend_from_slice(parent_name_address.as_ref());
+
+    let seed_slices: Vec<&[u8]> = seeds_vec.chunks(32).collect();
+    let (name_account_key, bump) = Pubkey::find_program_address(&seed_slices, program_id);
+    seeds_vec.push(bump);
+
+    (name_account_key, seeds_vec)
 }
